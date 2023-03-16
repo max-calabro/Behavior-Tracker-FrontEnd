@@ -1,0 +1,141 @@
+:root {
+  --offWhite: rgb(251, 241, 234);
+  --paleBlue: rgb(189, 214, 240);
+  --embarrassedPeach: rgb(244, 190, 147);
+  --charcoal: rgb(35, 32, 29);
+}
+
+.all-students-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 80vh;
+  width: 100%;
+}
+
+/* All Students Title Bar */
+.flex-row-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 5vh;
+
+  width: 100%;
+}
+
+.component-title{
+  text-align: center;
+  font-size: x-large;
+
+  text-decoration: underline;
+
+  height: 10vh;
+  width: 20%;
+}
+
+.empty-space-left {
+  width: 30%;
+  height: 3vh;
+}
+
+.empty-space-right {
+  width: 30%;
+  height: 3vh;
+}
+
+.empty-back-button {
+  width: 10%;
+}
+
+.back-button {
+  max-height: 3vh;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
+
+/* Student Table Legend */
+.student-table-legend {
+  display: flex;
+  align-items: flex-end;
+
+  height: 10%;
+}
+
+/* Student Container */
+.all-student-container{
+  border-top: 2px solid black;
+
+  width: 50%;
+  height: 50vh;
+}
+
+.student-table-legend {
+  background-color: rgb(184, 184, 188);
+}
+
+.student-container-light, .student-container-dark {
+  display: flex;
+  align-items: flex-end;
+
+  height: 10%;
+}
+
+.student-container-light {
+  /* background-color: rgb(219, 223, 250); */
+  background-color: rgb(222, 231, 240);
+}
+
+.student-container-dark {
+  /* background-color: rgb(191, 201, 252); */
+  background-color: rgb(189, 214, 240);
+}
+
+.student-name, .legend-name, .legend-homeroom, .student-homeroom, .legend-schedule, .student-schedule {
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  padding-left: 4%;
+
+  width: 15%;
+}
+
+.legend-homeroom, .student-homeroom, .legend-schedule, .student-schedule{
+  width: 15%;
+}
+
+.student-name, .legend-name  {
+  text-align: left;
+  
+  border-left: 2px solid black;
+
+  width: 45%;
+  height: 100%;
+}
+
+.legend-homeroom, .student-homeroom {
+  text-align: left;
+
+  width: 27%;
+  height: 100%;
+}
+
+.legend-schedule, .student-schedule {
+  border-right: 2px solid black;
+
+  width: 35%;
+  height: 100%;
+}
+
+.student-schedule:hover {
+  cursor: pointer;
+  color:var(--offWhite);
+}
+
+.dashed-line {
+  border-left: 2px solid black;
+  height: 100%;
+}

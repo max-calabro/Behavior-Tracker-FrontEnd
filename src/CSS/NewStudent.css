@@ -1,0 +1,175 @@
+:root {
+  --offWhite: rgb(251, 241, 234);
+  --paleGreen: rgb(142, 165, 114);
+  --embarrassedPeach: rgb(244, 190, 147);
+  --charcoal: rgb(35, 32, 29);
+}
+
+.new-student-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 80vh;
+  width: 100%;
+}
+
+/* All Students Title Bar */
+.flex-row-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 5vh;
+
+  width: 100%;
+}
+
+.component-title{
+  text-align: center;
+  font-size: x-large;
+
+  text-decoration: underline;
+
+  height: 10vh;
+  width: 25%;
+}
+
+.empty-space-left {
+  width: 27.5%;
+  height: 3vh;
+}
+
+.empty-space-right {
+  width: 27.5%;
+  height: 3vh;
+}
+
+.empty-back-button {
+  width: 10%;
+}
+
+.new-student-back-button {
+  max-height: 3vh;
+}
+
+.new-student-back-button:hover {
+  cursor: pointer;
+}
+
+form {
+  align-self: center;
+
+  display: grid;
+  grid-template-columns: 1fr .1fr 1fr;
+
+  height: 40vh;
+  width: 160%;
+}
+
+.new-student-form-left, .new-student-form-right {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+  height: 100%;
+}
+
+.new-student-form-right{
+  justify-content: space-around;
+}
+
+.new-student-empty-top {
+  height: 22%;
+}
+.new-student-empty-mid {
+  height: 19%;
+}
+
+.new-student-empty-bot {
+  height: 19%;
+}
+
+.new-student-name,.new-student-homeroom, .new-student-placement {
+  display: flex;
+  justify-content: center;
+
+  width: 100%
+}
+
+.homeroom, .placement {
+  width: 60%;
+  height: 3vh;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+
+  width: 61%;
+  height: 3.5vh;
+}
+
+.new-first-name, .new-last-name {
+  margin-right: 0;
+
+  width: 50%;
+}
+
+.gap {
+  width: 1vh;
+}
+
+.homeroom {
+  padding: 0%;
+  width: 59.5%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+}
+
+.middle-left {
+  width: 50%
+}
+
+.middle-right {
+  border-left: 2px solid black;
+
+  height: 100%;
+}
+
+label {
+  margin-left: 1vh;
+
+  font-size: .9em
+}
+
+.behavior-container, .incentive-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 60%
+}
+
+.style {
+  width: 60%;
+  height: 3vh;
+}
+
+.button-div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.add-student-button {
+  width: 30%;
+  height: 45%;
+}
